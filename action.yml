@@ -15,6 +15,3 @@ outputs:
 runs:
   using: 'docker'
   image: 'docker://drone/git:latest'
-  args:
-    - DRONE_REMOTE_URL=${{ inputs.repository }} 
-    - DRONE_COMMIT_BRANCH=${{ inputs.branch }}
