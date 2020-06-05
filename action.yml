@@ -4,7 +4,7 @@ description: 'Clone a repository'
 inputs:
   repository:
     description: 'Repository'
-    defaults: not_found
+    defaults: ${{ github.repository }}
   branch:  # id of input
     description: 'Who to greet'
     required: true
