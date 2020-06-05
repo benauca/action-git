@@ -1,14 +1,6 @@
 # action.yml
 name: 'benauca/action-git'
 description: 'Clone a repository'
-inputs:
-  repository:
-    description: 'Repository'
-    defaults: ${{ github.repository }}
-  branch:  # id of input
-    description: 'Who to greet'
-    required: true
-    default: 'develop'
 outputs:
   time: # id of output
     description: 'The time we greeted you'
