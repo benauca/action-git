@@ -1,5 +1,5 @@
 # action.yml
-name: 'benauca/git'
+name: 'benauca/action-git'
 description: 'Clone a repository'
 inputs:
   repository:
@@ -9,8 +9,6 @@ inputs:
     description: 'Who to greet'
     required: true
     default: 'develop'
-
-
 outputs:
   time: # id of output
     description: 'The time we greeted you'
